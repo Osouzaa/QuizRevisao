@@ -5,6 +5,12 @@
   width: 500px;
 }
 
+@media (max-width: 414px) {
+  #question {
+    width: 80%;
+  }
+} 
+
 #question p {
   margin-bottom: 1rem;
 }
