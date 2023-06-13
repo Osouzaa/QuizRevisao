@@ -3,38 +3,6 @@ import Lixeira from '../img/Lixeira.png'
 
 const data = [
   {
-    category: "UC tecnologia",
-    questions: [
-      {
-        question: "Em Breve",
-        options: ["Em breve"],
-        answer: "<p>",
-        tip: "É uma tag de uma letra apenas",
-      },
-    ],
-  },
-  {
-    category: "Estágio",
-    questions: [
-      {
-        question: "Qual regra altera a cor de um elemento?",
-        options: ["color", "background-color", "font-size", "transition"],
-        answer: "color",
-        tip: "Cor em inglês",
-      },
-      {
-        question: "Para aumentar a fonte de um elemento utilizamos:",
-        options: ["font", "text-transform", "font-size", "hover"],
-        answer: "font-size",
-      },
-      {
-        question: "A posição que deixa um elemento fixo é a:",
-        options: ["static", "absolute", "fixed", "relative"],
-        answer: "fixed",
-      },
-    ],
-  },
-  {
     category: "Revisão EJA",
     questions: [
       {
