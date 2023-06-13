@@ -6,24 +6,29 @@
   cursor: pointer;
   opacity: 0.8;
   transition: 0.4s;
+  text-transform: uppercase;
 }
 
 .option:hover {
   opacity: 1;
+  text-transform: uppercase;
 }
 
 #options-container .option p {
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .correct {
   background-color: #0bfc03;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .wrong {
   background-color: #3c0e70;
   opacity: 0.5;
+  text-transform: uppercase;
 }
 
 .hide {
