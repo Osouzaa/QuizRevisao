@@ -20,14 +20,16 @@ const data = [
         answer: "7",
       },
       {
-        question: "Qual antecessor (vem antes) do número 151?",
+        question: "Qual antecessor do número 151?",
         options: ["150", "148", "152", "155"],
         answer: "150",
+        tip: "vem antes"
       },
       {
-        question: "Qual o sucessor (vem depois) do número 221?",
+        question: "Qual o sucessor do número 221?",
         options: ["122", "62", "222", "103"],
         answer: "222",
+        tip: "vem depois"
       },
       {
         question: "O que o ponteiro grande marca no relógio?",
