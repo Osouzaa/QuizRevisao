@@ -1,8 +1,7 @@
-import Relogio from '../img/RelogioPNG.png'
-import Lixeira from '../img/Lixeira.png'
+import Relogio from "../img/RelogioPNG.png";
 
 const data = [
-    {
+  {
     category: "Revisão EJA",
     questions: [
       {
@@ -21,14 +20,30 @@ const data = [
         answer: "7",
       },
       {
-        question: "Qual parte da planta serve para sustentá-la?",
-        options: ["Folha", "Caule", "Raiz", "Fruto"],
-        answer: "Caule",
+        question: "Qual antecessor (vem antes) do número 151?",
+        options: ["150", "148", "152", "155"],
+        answer: "150",
       },
       {
-        question: "Como se chama a parte da planta que suga os nutrientes?",
-        options: ["Folha", "Caule", "Raiz", "Flor"],
-        answer: "Raiz",
+        question: "Complete a palavra com a sílaba faltante: BA __ NA",
+        options: ["PE", "MA", "NA", "CO"],
+        answer: "NA",
+      },
+
+      {
+        question: "Complete a palavra com a sílaba faltante: MOS __ TO",
+        options: ["QUI", "QUA", "LA", "TO"],
+        answer: "QUI",
+      },
+      {
+        question: "Quantas sílabas tem a palavra FERMENTO?",
+        options: ["3", "5", "6", "4"],
+        answer: "3",
+      },
+      {
+        question: "Qual o sucessor (vem depois) do número 221?",
+        options: ["122", "62", "222", "103"],
+        answer: "222",
       },
       {
         question: "Qual a cor da lixeira para reciclagem do vidro?",
@@ -49,7 +64,7 @@ const data = [
         question: "Quantas sílabas tem a palavra CASAMENTO?  ",
         options: ["3", "5", "6", "4"],
         answer: "4",
-        tip: "CA | SA | MEN | TO"
+        tip: "CA | SA | MEN | TO",
       },
       {
         question: "Qual a classificação de sílabas da palavra CASA? ",
