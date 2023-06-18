@@ -1,3 +1,5 @@
+import Relogio from "../img/RelogioPNG.png"
+
 const data = [
   {
     category: "JOGO DA REVISÃO",
@@ -24,11 +26,12 @@ const data = [
       },
       {
         question: "Qual o sucessor (vem depois) do número 221?",
-        options: ["122", "62", "223", "103"],
+        options: ["122", "62", "222", "103"],
         answer: "222",
       },
       {
         question: "O que o ponteiro grande marca no relógio?",
+        imagem: Relogio,
         options: ["Horas", "Minutos", "Segundos", "Dias"],
         answer: "Minutos",
       },
@@ -66,11 +69,13 @@ const data = [
         question: "Quantas sílabas tem a palavra FERMENTO?",
         options: ["3", "5", "6", "4"],
         answer: "3",
+        tip: "FER | MEN | TO",
       },
       {
         question: "Quantas sílabas tem a palavra CASAMENTO?",
         options: ["3", "5", "6", "4"],
         answer: "4",
+        tip: "CA | SA | MEN | TO",
       },
       {
         question: "Qual a classificação de sílabas da palavra CASA?",
