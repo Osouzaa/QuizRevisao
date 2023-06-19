@@ -63,7 +63,7 @@ const data = [
         answer: "NA",
       },
       {
-        question: "Complete a palavra com a sílaba faltante: MOS __ TO",
+        question: "Complete a palavra com a sílaba faltante: MOS ___ TO",
         options: ["QUI", "QUA", "LA", "TO"],
         answer: "QUI",
       },
